@@ -1,6 +1,29 @@
-.head{
-    background-color: #1f2937;
+    body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+
 }
-.foot{
+    body > .head{
+        height: 300px;
+        background-color: #1f2937;
+}
+ body > .main{
+    background-color: pink;
+    height: 100px;
+    flex-grow: 1;
+ }
+
+ body > .foot{
     background-color: #1f2937;
+    height: 100px;
+}
+.paper{
+    padding: 2rem;
+    background-color: wheat;
+    margin: 1em;
+}
+.img{
+    border: 15px solid #1f2937;;
 }
