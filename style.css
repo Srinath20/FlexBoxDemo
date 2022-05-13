@@ -12,6 +12,11 @@
 .head{
     display: flex;
 }
+.head > .p1{
+    color: aliceblue;
+    font-size: x-large;
+    align-items: flex-end;
+}
 img{
     justify-content: center;
     margin-left: 10px;
