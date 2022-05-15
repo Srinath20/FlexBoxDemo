@@ -33,11 +33,53 @@ img{
     background-color: #1f2937;
     height: 100px;
 }
-.paper{
+
+  .paper{
     padding: 2rem;
     background-color: wheat;
     margin: 1em;
 }
+ 
 .img{
     border: 15px solid #1f2937;;
 }
+.two {
+    background-color: whitesmoke;
+    height: 300px;
+    display: flex;
+}
+.two .b1{
+    background-color: wheat;
+    border-radius: 2rem;
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+}
+.b1{
+    align-self: center;
+    margin-left: 50px;
+}
+.two .b2{
+    background-color: wheat;
+    border-radius: 2rem;
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+}
+.b2{
+    align-self: center;
+    margin-left: 150px;
+}
+.two .b3{
+    background-color: wheat;
+    border-radius: 2rem;
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+}
+.b3{
+    align-self: center;
+    margin-left: 200px;
+}
+
+
