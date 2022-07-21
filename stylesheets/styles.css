@@ -1,0 +1,220 @@
+body {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1F2937;
+    position: relative;
+    flex: 6;
+}
+
+.top-header {
+    height:35%;
+    display: flex;
+    justify-content: center;
+ 
+}
+.logo, .links {
+    padding: 10px;
+    width: 40%;
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content:flex-start;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+.links{
+    display: flex;
+    justify-content:flex-end;
+}
+.list1{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-right: 150px;
+    }
+li{
+    font-size:larger;
+    margin-top: 10px;
+    }
+a{
+    text-decoration: none;
+    }
+a:hover{
+    color:tomato;
+    letter-spacing: 0.5em;
+    transition: 1s;
+    }
+.bottom-header {
+    height: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.placeholder, .text{
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    align-items: flex-start;
+}
+strong{
+    font-size:48px;
+    font-weight: 800;
+    color: white;
+}
+    p{
+    font-size: 18px;
+    color: grey;
+}
+    button{
+    background-color:#3882F6;
+    color: wheat;
+    width: 100px;
+}
+.placeholder{
+    position: relative;
+    align-items: flex-start;
+}
+#holder{
+    border: 2px solid wheat;
+    width: 80%;
+    height: 90%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background-color: blue;
+    flex: 12;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.random-info{
+    flex: 2;
+    height: 33%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.info1{
+    width: 80%;
+    height: 5%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.boxes{
+    width: 80%;
+    padding: 10px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 25px;
+}
+#description{
+    height: 25%;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.quote{
+    flex: 1;
+    height: 33%;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#message{
+    width: 55%;
+    height: 30%;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:#1F2937;
+    font-style: italic;
+}
+#author{
+    width: 35%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:black;
+    font-style: italic;
+}
+.signup{
+    flex: 1;
+    height: 23%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+#box{
+    width: 65%;
+    height: 65%;
+    background-color: #3882F6;
+    border-radius: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+}
+button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    border-color: #E5E7EB;
+    font-size: medium;
+}
+#login{
+    color: white;
+    font-size: 15px;
+}
+footer {
+    background-color: #1F2937;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copy{
+    color: #E5E7EB;
+}
